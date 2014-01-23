@@ -1,0 +1,1 @@
+rsync -rav -e ssh --exclude='logs/*' --exclude='jobs/*/builds/*' a5:/var/lib/jenkins ~/backup/jenkins_master/
